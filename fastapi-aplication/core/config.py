@@ -1,5 +1,9 @@
-from pydantic import BaseModel, PostgresDsn
-from pydantic_settings import BaseSettings, SettingsConfigDict
+from pydantic import BaseModel
+from pydantic import PostgresDsn
+from pydantic_settings import (
+    BaseSettings,
+    SettingsConfigDict,
+)
 
 
 class RunConfig(BaseModel):
